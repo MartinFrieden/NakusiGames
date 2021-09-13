@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f07cb849943d854ba6aff2bf2c67f68, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  CharacterSpawner:
+    SpeedMin: 10
+    SpeedMax: 50
+    AccuracyMin: 0
+    AccuracyMax: 1
+    NumCharactersIncreaseRate: 0.06
+    NumCharactersStartAmount: 1.5
+    MinDelayBetweenSpawns: 0.3
+  GameInstaller:
+    CharacterFacadePrefab: {fileID: 2010770901254372009, guid: 7e07121ad8656d24ea6a5ad91d519261, type: 3}
+    BombPrefab: {fileID: 7335136608976629109, guid: ee4d094a9e5cf964384f9bd3150bee18, type: 3}
+  Character:
+    DefaultSettings:
+      Accuracy: 1
+      Speed: 25
